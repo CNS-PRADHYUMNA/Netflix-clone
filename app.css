@@ -1,0 +1,114 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://assets.nflxext.com/ffe/siteui/vlv3/c906271d-7184-4eec-83c9-b6d4c1a068ec/728874a6-eeda-400a-9bcf-a935a1408a4f/IN-en-20231127-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+}
+.svg-icon{
+    margin-top: 1.5%;
+    margin-left: 3%;
+    height: 45px;
+}
+#Fill-14{
+   
+    fill: red;
+}
+
+.login{
+    margin-top: 5%;
+    margin-left:35%;
+    margin-right:35%;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6));
+
+}
+
+h1{
+    font-size: 54px;
+    margin-bottom: 15px;
+}
+.forms{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 10%;
+    margin: 15%;
+    width: 100%;
+}
+#email{
+   font-size: 1.2em;
+    margin-bottom:5% ;
+   background-color: grey;
+   color: white;
+   padding: 5%;
+}
+#pass{
+    font-size: 1.2em;
+    margin-bottom:5% ;
+    background-color: rgb(255, 255, 255);
+
+    padding: 5%;
+ }
+#email::placeholder{
+    color: white;
+    
+}
+#btn{
+    font-size: 1.2em;
+    background-color: red;
+    text-align: center;
+    padding:3%;
+    color: white;
+    width: 52%;
+    transition: 0.2s;
+
+}
+#btn:hover{
+    transform: scale(1.2,1.2);
+    cursor: pointer;
+}
+#help{
+    color: white;
+    margin-left: 70px;
+}
